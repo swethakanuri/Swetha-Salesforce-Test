@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>you_will_get_an_email_alert_if_the_country_matches_with_india</fullName>
+        <ccEmails>vasyvasf@gmail.com</ccEmails>
+        <description>you will get an email alert if the country matches with india</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>kanuri.swetha@opsera.io</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SalesNewCustomerEmail</template>
+    </alerts>
+    <rules>
+        <fullName>country match</fullName>
+        <actions>
+            <name>you_will_get_an_email_alert_if_the_country_matches_with_india</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.Country</field>
+            <operation>equals</operation>
+            <value>India</value>
+        </criteriaItems>
+        <description>rule country should match with India</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>
