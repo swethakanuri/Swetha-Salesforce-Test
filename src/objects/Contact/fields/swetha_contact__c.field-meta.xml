@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>swetha_contact__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Swetha contact</description>
+    <label>swetha_contact</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Phone</type>
+</CustomField>
