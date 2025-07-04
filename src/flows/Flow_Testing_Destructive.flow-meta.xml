@@ -114,7 +114,7 @@
         <name>recordId</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
-        <isInput>false</isInput>
+        <isInput>true</isInput>
         <isOutput>false</isOutput>
     </variables>
 </Flow>
