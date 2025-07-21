@@ -14,6 +14,6 @@ private class TemperatureConverterTest {
 }
 @isTest static void testNegativeTemp() {
    Decimal celsius = TemperatureConverter.FahrenheitToCelsius(-10);
-   System.assertEquals(-23.33,celsius);
+   System.assertEquals(-23.33,cel);
 }
 }
