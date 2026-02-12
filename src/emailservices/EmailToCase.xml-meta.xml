@@ -4,12 +4,6 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Bounce</authenticationFailureAction>
     <authorizationFailureAction>Discard</authorizationFailureAction>
-    <emailServicesAddresses>
-        <developerName>kanuri_swetha</developerName>
-        <isActive>true</isActive>
-        <localPart>kanuri.swetha</localPart>
-        <runAsUser>kanuri.swetha@opsera.io</runAsUser>
-    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToCase</functionName>
     <isActive>true</isActive>
