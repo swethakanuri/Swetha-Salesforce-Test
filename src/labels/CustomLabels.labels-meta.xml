@@ -5,7 +5,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>account</shortDescription>
-        <value>account name - opsera</value>
+        <value>account name Test</value>
     </labels>
     <labels>
         <fullName>address</fullName>
@@ -20,6 +20,13 @@
         <protected>true</protected>
         <shortDescription>contact</shortDescription>
         <value>contact - number</value>
+    </labels>
+    <labels>
+        <fullName>country</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>country</shortDescription>
+        <value>Country-India</value>
     </labels>
     <labels>
         <fullName>title_name</fullName>
