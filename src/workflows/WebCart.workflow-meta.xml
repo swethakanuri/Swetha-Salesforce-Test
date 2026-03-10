@@ -6,7 +6,7 @@
         <criteriaItems>
             <field>WebCart.PaymentMethodId</field>
             <operation>equals</operation>
-            <value>Done</value>
+            <value>done</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
