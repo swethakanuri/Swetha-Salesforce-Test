@@ -25,7 +25,7 @@
         <default>false</default>
         <label>United Kingdom</label>
     </customValue>
-    <description>This contains all the country names</description>
+    <description>This contains all the country name Test</description>
     <masterLabel>Country</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
