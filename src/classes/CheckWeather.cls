@@ -12,7 +12,7 @@ public with sharing class CheckWeather {
         WeatherService.Weather weather = WeatherService.getResortWeather(
             dateToCheck
         );
-        // Create the response for Copilot
+        // Create the response for Copilot (testing)
         WeatherResponse response = new WeatherResponse();
         response.minTemperature = weather.minTemperatureC;
         response.maxTemperature = weather.maxTemperatureC;
