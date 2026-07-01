@@ -5,4 +5,3 @@ public class deva {
         return result.setScale(2);
     }
 }
-
