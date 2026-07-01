@@ -5,3 +5,4 @@ public static Decimal FahrenheitToCelsius(Decimal fh) {
    return cs.setScale(2);
 }
 }
+
