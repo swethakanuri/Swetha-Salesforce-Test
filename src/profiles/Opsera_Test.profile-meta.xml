@@ -16,6 +16,11 @@
         <field>house_detail__c.house_detail_filed__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>opsera_Test__c.Test_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>house_detail__c.techincal_support</recordType>
